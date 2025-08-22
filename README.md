@@ -10,6 +10,7 @@ Aprender funcionamiento básico de Arduino y del LED
 -Resistencia 220Ω  
 -Cables  
 -Protoboard  
+<img src="led_parpadeante.jpg" alt="Led Encendido" width="300">
 ### Código
 **Archivo Principal:** led_parpadeante.ino  
 int led = 13;  // Pin digital a donde esta conenectado el led  
@@ -24,6 +25,5 @@ void loop() {
   digitalWrite(led, LOW);  // Apaga el led  
   delay(1000);  //Agrega un delay de 1 segundo
 }  
-![LED Encendido](led_parpadeante.jpg)
 
 
