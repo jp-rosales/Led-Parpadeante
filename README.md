@@ -12,17 +12,17 @@ Aprender funcionamiento básico de Arduino y del LED
 -Protoboard  
 ### Código
 **Archivo Principal:** led_parpadeante.ino  
-int led = 13;
-
-void setup() {
-  pinMode(led, OUTPUT);
-}
-
-void loop() {
-  digitalWrite(led, HIGH);
-  delay(1000);
-  digitalWrite(led, LOW);
-  delay(1000);
+int led = 13;  // Pin digital a donde esta conenectado el led  
+  
+void setup() {  
+  pinMode(led, OUTPUT);  // Configura el pin como salida  
+}  
+  
+void loop() {  
+  digitalWrite(led, HIGH); //Enciende el led  
+  delay(1000);  //Agrega un delay de 1 segundo
+  digitalWrite(led, LOW);  // Apaga el led  
+  delay(1000);  //Agrega un delay de 1 segundo
 }
 
 
