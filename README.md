@@ -1,7 +1,10 @@
 # Led-Parpadeante
 ## Juan Pablo Rosales - 2025
 ### Descripción
-Proyecto simple de Arduino para encender y apagar un LED con Arduino
+Proyecto simple de Arduino para encender y apagar un LED con Arduino  
+  
+<img src="led_parpadeante.jpg" alt="Led Encendido" width="300">  
+
 ### Objetivo
 Aprender funcionamiento básico de Arduino y del LED
 ### Materiales
@@ -10,7 +13,7 @@ Aprender funcionamiento básico de Arduino y del LED
 -Resistencia 220Ω  
 -Cables  
 -Protoboard  
-<img src="led_parpadeante.jpg" alt="Led Encendido" width="300">
+
 ### Código
 **Archivo Principal:** led_parpadeante.ino  
 int led = 13;  // Pin digital a donde esta conenectado el led  
