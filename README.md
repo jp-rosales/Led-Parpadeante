@@ -23,6 +23,7 @@ void loop() {
   delay(1000);  //Agrega un delay de 1 segundo
   digitalWrite(led, LOW);  // Apaga el led  
   delay(1000);  //Agrega un delay de 1 segundo
-}
+}  
+![LED Encendido](led_parpadeante.jpg)
 
 
