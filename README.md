@@ -10,7 +10,7 @@ Aprender funcionamiento básico de Arduino y del LED
 -Resistencia 220Ω  
 -Cables  
 -Protoboard  
-## Código
+### Código
 **Archivo Principal:** led_parpadeante.ino  
 int led = 13;
 
